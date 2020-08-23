@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TiposLayout.Layouts.Absolute.AbsolutePage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <BoxView AbsoluteLayout.LayoutBounds="0, 0, 100, 200" BackgroundColor="PaleVioletRed"/>
+            <BoxView AbsoluteLayout.LayoutBounds="80, 30, 50, 150" BackgroundColor="DarkViolet"/>
+            <BoxView BackgroundColor="BlueViolet"/>
+
+            <BoxView AbsoluteLayout.LayoutFlags="WidthProportional" AbsoluteLayout.LayoutBounds="0, 210, 0.5, 200" BackgroundColor="LawnGreen"/>
+            <BoxView AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="200, 210, 0.4, 0.3"  BackgroundColor="DarkOliveGreen"/>
+            <BoxView AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.9, 100, 50" BackgroundColor="LightSeaGreen"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
